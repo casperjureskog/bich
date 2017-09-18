@@ -1,1 +1,56 @@
 /* Empty. Add your own CSS if you like */
+.grade {
+  /*background-color: pink;*/
+  background: linear-gradient(to bottom, pink, #E265CD);
+}
+
+.logo {
+  color: white;
+  font-size: 70px;
+  font-family: "Futura", sans-serif;
+}
+
+.logo2 {
+  color: white;
+  font-size: 50px;
+  font-family: "Futura", sans-serif;
+}
+
+.logodiv {
+  text-align: center;
+}
+
+.logodiv2 {
+  text-align: right;
+  padding-right: 25px;
+  margin-top: -10px;
+}
+
+.place {
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.my-col-33 {
+  float: left;
+  width: 33%;
+  height: 190px;
+  padding-bottom: 20px !important;
+  padding-left: -20px;
+}
+
+.cards {
+  background: linear-gradient(to bottom, #fff, pink);
+  border: 4px;
+  color: #888;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff;
+  border-radius: 6px;
+  box-shadow: 2px 2px 4px #666;
+  vertical-align: top;
+  margin-bottom: 10px !important;
+}
